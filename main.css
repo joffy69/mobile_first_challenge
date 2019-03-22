@@ -1,5 +1,11 @@
 .column {
     float: left;
     width: 30%;
-    color: #000
+    color: #000;
+    margin: 10px 0;
+    height: 50px;
+}
+
+@media {
+    
 }
