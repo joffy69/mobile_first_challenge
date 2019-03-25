@@ -4,18 +4,23 @@
     height: 50px;
     background-color: #000;
     margin: 10px 0;
+    border-radius:3px;
 }
 
 @media (min-width: 768px) {
-    .column {
+    .column  {
         background-color: #e84610;
-        width: 30%;
-        margin: 10px;
+        /*width: 30%;*/
+        margin: 10px 0;
+       /*:before text-transform: capitalize;*/
+        /*content: "Joe's Task:";*/
     }
 }
 
 @media (min-width: 992px) {
     .column {
         background-color: #0997d3;
+        width: 30%;
+        margin: 10px;
     }
 }
